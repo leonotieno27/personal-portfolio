@@ -52,7 +52,7 @@ img#comp{
 
 .mentors{
     text-align: center;
-    text-decoration: underline;
+    
 }
 
 #mentors{
@@ -66,6 +66,7 @@ img#comp{
 
 #mentorsName{
     font-size: 230%;
+    text-decoration: underline;
 }
 
 #list{
