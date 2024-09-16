@@ -9,6 +9,7 @@
     font-size: 230%;
     text-align: center;
     text-transform: uppercase;
+    text-decoration: underline;
 }
 .details{
     display: flex;
@@ -32,6 +33,7 @@ img#me{
 #about{
     text-align: center;
     font-size: 230%;
+    text-decoration: underline;
 }
 
 img#comp{
@@ -45,10 +47,12 @@ img#comp{
 #schoolName{
     text-transform: uppercase;
     font-size: 230%;
+    text-decoration: underline;
 }
 
 .mentors{
     text-align: center;
+    text-decoration: underline;
 }
 
 #mentors{
@@ -74,6 +78,7 @@ img#comp{
 #hobbiesName{
     text-align: center;
     font-size: 230%;
+    text-decoration: underline;
 }
 
 #random{
@@ -86,20 +91,20 @@ img#comp{
 
 #randomHeader{
     text-align: center;
-}
-#musicHeader{
-    text-align: center;
-    font-size: 230%;
+    text-decoration: underline;
 }
 #quote{
     text-align: center;
+
 }
 
 #footer{
     text-align: center;
 }
 
-@media (min-width: 768px) {
-    
+@media (max-width: 768px) {
+    .details{
+        display: block;
+    }
     
 }
