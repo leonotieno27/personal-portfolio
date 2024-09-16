@@ -1,0 +1,105 @@
+#line{
+    width: 95%;
+}
+
+#headerName{
+    font-weight: bold;
+    padding-top: 0%;
+    margin-top: 0%;
+    font-size: 230%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.details{
+    display: flex;
+    gap: 2%;
+}
+#personal-details{
+    width: 30em;
+    padding-left: 25%;
+}
+
+img#me{
+    width: 60%;
+    height: 60%;
+    border-radius: 3%;
+}
+.about{
+    align-items: center;
+    text-align: center;
+}
+
+#about{
+    text-align: center;
+    font-size: 230%;
+}
+
+img#comp{
+    width: 70%;
+    height: 70%;
+}
+
+.school{
+    text-align: center;
+}
+#schoolName{
+    text-transform: uppercase;
+    font-size: 230%;
+}
+
+.mentors{
+    text-align: center;
+}
+
+#mentors{
+    display: flex;
+}
+
+#pic{
+   width: 80%;
+   height: 80%;
+}
+
+#mentorsName{
+    font-size: 230%;
+}
+
+#list{
+    text-decoration: none;
+}
+#hobbies{
+    padding-left: 3%;
+}
+
+#hobbiesName{
+    text-align: center;
+    font-size: 230%;
+}
+
+#random{
+    text-align: center;
+    display: flex;
+    gap: 15%;
+    padding-left: 7%;
+}
+
+
+#randomHeader{
+    text-align: center;
+}
+#musicHeader{
+    text-align: center;
+    font-size: 230%;
+}
+#quote{
+    text-align: center;
+}
+
+#footer{
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    
+    
+}
