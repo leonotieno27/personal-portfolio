@@ -84,15 +84,12 @@ img#comp{
 
 #random{
     text-align: center;
-    display: flex;
-    gap: 15%;
-    padding-left: 7%;
+
 }
-
-
-#randomHeader{
+#goalHeader{
     text-align: center;
     text-decoration: underline;
+    font-size: 230%;
 }
 #quote{
     text-align: center;
