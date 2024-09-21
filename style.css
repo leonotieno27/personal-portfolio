@@ -21,7 +21,7 @@ a#link{
     text-decoration: none;
 }
 a#link:hover{
-    color: brown;
+    color: rgb(126, 96, 31);
 }
 
 .animate-pop-in{
@@ -65,6 +65,7 @@ a#link:hover{
     text-align: center;
     text-transform: uppercase;
     font-family: 'Times New Roman', Times, serif;
+    color: rgb(126, 96, 31);
 }
 .details{
     display: flex;
@@ -88,6 +89,7 @@ img#me{
 #about{
     text-align: center;
     font-size: 230%;
+    color: rgb(126, 96, 31);
 }
 
 img#comp{
@@ -101,6 +103,7 @@ img#comp{
 #schoolName{
     text-transform: uppercase;
     font-size: 230%;
+    color: rgb(126, 96, 31);
 }
 
 .mentors{
@@ -119,6 +122,7 @@ img#comp{
 
 #mentorsName{
     font-size: 230%;
+    color: rgb(126, 96, 31);
 }
 
 #list{
@@ -131,6 +135,7 @@ img#comp{
 #hobbiesName{
     text-align: center;
     font-size: 230%;
+    color: rgb(126, 96, 31);
 }
 
 #random{
@@ -140,9 +145,16 @@ img#comp{
 #goalHeader{
     text-align: center;
     font-size: 230%;
+    color: rgb(126, 96, 31);
+}
+
+#quote-header{
+    font-size: 230%;
+    color: rgb(126, 96, 31);
 }
 #quote{
     text-align: center;
+    
 
 }
 
