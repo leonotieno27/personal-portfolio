@@ -1,166 +1,208 @@
 <!DOCTYPE html>
 <html>
-<!-- header -->
+  <!-- header -->
 
-<head>
+  <head>
     <title>Personal Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<!-- body -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <!-- body -->
 
-<body>
-    <section class="header">
-        <h1 id="headerName">Personal Portfolio</h1>
-        <ul id="nav">
+  <body>
+    <div class="grid-container">
+      <div class="grid-100 mobile-grid-100 tablet-grid-100">
+        <div class="grid-100 mobile-grid-100 tablet-grid-100">
+          <h1 id="headerName">Personal Portfolio</h1>
+          <ul id="nav">
             <li id="item"><a id="link" href="#details"> DETAILS</a></li>
-            <li id="item"><a id="link"  href="#about">ABOUT</a></li>
-            <li id="item"><a id="link"  href="#school">SCHOOL</a></li>
-            <li id="item"><a id="link"   href="#mentors">MENTORS</a></li>
-            <li id="item"><a id="link"  href="#hobbies">HOBBIES</a></li>
-            <li id="item"><a id="link"   href="#random">GOALS</a></li>
-            <li id="item"><a id="link"  href="#quote">QUOTE</a></li>
-        </ul>
-    </section>
-    <!-- details -->
-    <section class="details">
-        <article id="personal-details">
-            <p class="one animate-pop-in"><b>Name:</b> Leon Owino Otieno</p>
-            <p class="two animate-pop-in"><b>Gender: </b>Male</p>
-            <p class="three animate-pop-in"><b>Age: </b>24</p>
-            <p class="four animate-pop-in"><b>Marital Status:</b> Single</p>
-            <p class="five animate-pop-in"><b>Career:</b> Computer Science</p>
-            <p class="six animate-pop-in"><b>My Github: </b> <a href="https://github.com/leonotieno27?tab=repositories">Github Projects</a></p>
-            <p class="seven animate-pop-in"><b>My 2<sup>nd</sup> Github: </b> <a href="https://github.com/LeonOtieno99?tab=repositories">Github Projects</a></p>
-        </article>
-        <article>
-            <figure>
-                <img id='me' src="images/me.jpg" alt="my anime photo"
-                    title="This image is an anime representation of myself" />
-                <figcaption>
-                    Leon
-                </figcaption>
-            </figure>
-        </article>
-    </section>
-  
-    <!-- about -->
-    <section class="about">
-        <h1 id="about">ABOUT</h1>
-        <article>
+            <li id="item"><a id="link" href="#about">ABOUT</a></li>
+            <li id="item"><a id="link" href="#school">SCHOOL</a></li>
+            <li id="item"><a id="link" href="#mentors">MENTORS</a></li>
+            <li id="item"><a id="link" href="#hobbies">HOBBIES</a></li>
+            <li id="item"><a id="link" href="#random">GOALS</a></li>
+            <li id="item"><a id="link" href="#quote">QUOTE</a></li>
+          </ul>
+        </div>
+        <!-- details -->
+        <div
+          class="grid-100 mobile-grid-100 tablet-grid-100"
+          style="display: flex; text-align: center"
+        >
+          <div class="grid-50 mobile-grid-100 tablet-grid-100">
+            <article id="personal-details">
+              <p class="one animate-pop-in"><b>Name:</b> Leon Owino Otieno</p>
+              <p class="two animate-pop-in"><b>Gender: </b>Male</p>
+              <p class="three animate-pop-in"><b>Age: </b>24</p>
+              <p class="four animate-pop-in"><b>Marital Status:</b> Single</p>
+              <p class="five animate-pop-in"><b>Career:</b> Computer Science</p>
+              <p class="six animate-pop-in">
+                <b>My Github: </b>
+                <a href="https://github.com/leonotieno27?tab=repositories"
+                  >Github Projects</a
+                >
+              </p>
+              <p class="seven animate-pop-in">
+                <b>My 2<sup>nd</sup> Github: </b>
+                <a href="https://github.com/LeonOtieno99?tab=repositories"
+                  >Github Projects</a
+                >
+              </p>
+            </article>
+          </div>
+          <div class="grid-50 mobile-grid-100 tablet-grid-100">
+            <article>
+              <figure>
+                <img
+                  id="me"
+                  src="images/me.jpg"
+                  alt="my anime photo"
+                  title="This image is an anime representation of myself"
+                />
+                <figcaption>Leon</figcaption>
+              </figure>
+            </article>
+          </div>
+        </div>
 
-            <p>I believe in Science as the only bridge between Reality and Fiction</p>
-            <p>I hope I make my mark in this journey</p>
-            <p>This will be prove of my existence and hard work</p>
-        </article>
-        <article>
-            <figure>
-                <img id="comp" src="images/comp_sci.webp" alt="ai tech image">
-                <figcaption>
-                    Tech Science World
-                </figcaption>
-            </figure>
-        </article>
-    </section>
-    
-    <!-- schools -->
-    <section class="school" id="school">
-        <h1 id="schoolName">School</h1>
-        <p><b>ST. AUGUSTINE BOYS BOARDING:</b> 375</p>
-        <p><b>BARDING BOYS BOARDING:</b> B-</p>
-        <p><b>GRETSA UNIVERSITY:</b> SECOND CLASS HONOURS UPPER DIVISION</p>
-        <p><b>DEGREE: </b>BACHELOR OF SCIENCE IN COMPUTER SCIENCE</p>
-        <p>I graduated in: <b>DEC 15<sup>TH</sup> 2023</b></p>
-    </section>
-    <!--MENTORS-->
-    <section class="mentors">
-        <h1 id="mentorsName">MENTORS; PEOPLE I LOOK UP TO</h1>
-        <ul id="mentors">
-            <figure>
-                <img id="pic" src="images/fang yuan.jpg" alt="fang yuan">
-                <figcaption>
+        <!-- about -->
+        <section style="text-align: center">
+          <div class="grid-100 mobile-grid-100 tablet-grid-100">
+            <h1 id="about">ABOUT</h1>
+            <article>
+              I believe in Science as the only bridge between Reality and
+              Fiction
+
+              <p>I hope I make my mark in this journey</p>
+              <p>This will be prove of my existence and hard work</p>
+            </article>
+            <article>
+              <figure>
+                <img id="comp" src="images/comp_sci.webp" alt="ai tech image" />
+                <figcaption>Tech Science World</figcaption>
+              </figure>
+            </article>
+          </div>
+        </section>
+
+        <!-- schools -->
+
+        <div class="grid-100 mobile-grid-100 tablet-grid-100">
+          <section class="school" id="school">
+            <h1 id="schoolName">School</h1>
+            <p><b>ST. AUGUSTINE BOYS BOARDING:</b> 375</p>
+            <p><b>BARDING BOYS BOARDING:</b> B-</p>
+            <p><b>GRETSA UNIVERSITY:</b> SECOND CLASS HONOURS UPPER DIVISION</p>
+            <p><b>DEGREE: </b>BACHELOR OF SCIENCE IN COMPUTER SCIENCE</p>
+            <p>
+              I graduated in: <b>DEC 15<sup>TH</sup> 2023</b>
+            </p>
+          </section>
+        </div>
+
+        <!--MENTORS-->
+        <div class="grid-100 mobile-grid-100 tablet-grid-100">
+          <section class="mentors">
+            <h1 id="mentorsName">MENTORS; PEOPLE I LOOK UP TO</h1>
+            <ul id="mentors">
+              <div class="grid-100 mobile-grid-33 tablet-grid-33">
+                <figure>
+                  <img id="pic" src="images/fang yuan.jpg" alt="fang yuan" />
+                  <figcaption>
                     -FANG YUAN-
                     <br />
                     -PSYCHOLOGY-
-                </figcaption>
-            </figure>
-            <figure>
-                <img id="pic" src="images/DUROV.jpg" alt="pavel durov">
-                <figcaption>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="grid-100 mobile-grid-33 tablet-grid-33">
+                <figure>
+                  <img id="pic" src="images/DUROV.jpg" alt="pavel durov" />
+                  <figcaption>
                     -PAVEL DUROV-
                     <br />
                     -TECH & FREEDOM-
-                </figcaption>
-            </figure>
-            <figure>
-                <img id="pic" src="images/naruto.jpg" alt="naruto">
-                <figcaption>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="grid-100 mobile-grid-33 tablet-grid-33">
+                <figure>
+                  <img id="pic" src="images/naruto.jpg" alt="naruto" />
+                  <figcaption>
                     -NARUTO-
                     <br />
                     -DETERMINATION-
-                </figcaption>
-            </figure>
-        </ul>
-    </section>
-  
+                  </figcaption>
+                </figure>
+              </div>
+            </ul>
+          </section>
+        </div>
 
-    <!-- hobbies -->
-    <section id="hobbies">
-        <h1 id="hobbiesName">HOBBIES</h1>
-        <ul>
-            <li>Watching Shows:</li>
+        <!-- hobbies -->
+        <div class="grid-100 mobile-grid-100 tablet-grid-100">
+          <section id="hobbies">
+            <h1 id="hobbiesName">HOBBIES</h1>
             <ul>
+              <li>Watching Shows:</li>
+              <ul>
                 <li>Genre:</li>
                 <ul>
-                    <li>Tech Series and Movies</li>
-                    <ul>
-                        <li>MR.ROBOT</li>
-                        <li>PERSON OF INTEREST</li>
-                        <li>BLACKHAT</li>
-                    </ul>
-                    <li>Anime</li>
-                    <ul>
-                        <li>NARUTO</li>
-                        <li>ATTACK ON TITAN</li>
-                        <li>DEMON SLAYER</li>
-                        <li>FATE/ZERO</li>
-                    </ul>
+                  <li>Tech Series and Movies</li>
+                  <ul>
+                    <li>MR.ROBOT</li>
+                    <li>PERSON OF INTEREST</li>
+                    <li>BLACKHAT</li>
+                  </ul>
+                  <li>Anime</li>
+                  <ul>
+                    <li>NARUTO</li>
+                    <li>ATTACK ON TITAN</li>
+                    <li>DEMON SLAYER</li>
+                    <li>FATE/ZERO</li>
+                  </ul>
                 </ul>
-            </ul>
-            <li>Watching Football:</li>
-            <ul>
+              </ul>
+              <li>Watching Football:</li>
+              <ul>
                 <li>FAV. TEAM: CHELSEA</li>
+              </ul>
+              <li>Reading Books:</li>
+              <ul>
+                <li>FAV AUTHOR:</li>
+                <ul>
+                  <li>JON DUCKETT</li>
+                </ul>
+              </ul>
             </ul>
-            <li>Reading Books:</li>
-            <ul><li>FAV AUTHOR:</li><ul>
-                <li>JON DUCKETT</li>
-            </ul></ul>
-        </ul>
-    </section>
-   
-    <!-- random things -->
-    <section id="random">
-        <article id="goals">
-            <h1 id="goalHeader">GOALS</h1>
+          </section>
+        </div>
 
-            To Own A Company <br />
-            A Warm Family and a Happy Home
+        <!-- random things -->
+        <div class="grid-100 mobile-grid-100 tablet-grid-100">
+          <section id="random">
+            <article id="goals">
+              <h1 id="goalHeader">GOALS</h1>
 
-        </article>
+              To Own A Company <br />
+              A Warm Family and a Happy Home
+            </article>
+          </section>
+        </div>
 
-    </section>
-  
-   
-    <!--MY QUOTE-->
-    <section id="quote">
-        <h1 id="quote-header">QUOTE</h1>
-        <q>I was Pain and Pain was me, I Sought for the end of the World
-            but Naruto saved me. <br />He made my world less Painful.</q>
-        
-        <p></p>
-    </section>
-    <footer id="footer">
-        &copy; LEON 2024
-    </footer>
-</body>
+        <!--MY QUOTE-->
+        <div class="grid-100 mobile-grid-100 tablet-grid-100">
+          <section id="quote">
+            <h1 id="quote-header">QUOTE</h1>
+            <q
+              >I was Pain and Pain was me, I Sought for the end of the World but
+              Naruto saved me. <br />He made my world less Painful.</q
+            >
 
+            <p></p>
+          </section>
+        </div>
+        <footer id="footer">&copy; LEON 2024</footer>
+      </div>
+    </div>
+  </body>
 </html>
