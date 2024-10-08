@@ -154,6 +154,16 @@ img#comp{
     color: rgb(126, 96, 31);
 }
 
+.icon{
+    width: 30px;
+    height: 30px;
+    padding-left: 5px;
+}
+
+.icons{
+    text-align: center;
+}
+
 #quote-header{
     font-size: 230%;
     color: rgb(126, 96, 31);
